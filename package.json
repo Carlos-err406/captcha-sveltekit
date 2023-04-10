@@ -54,5 +54,6 @@
   "repository": {
     "url": "https://github.com/Carlos-err406/captcha-sveltekit",
     "type": "github"
-  }
+  },
+  "homepage": "https://github.com/Carlos-err406/captcha-sveltekit#README"
 }
