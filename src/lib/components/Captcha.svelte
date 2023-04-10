@@ -19,7 +19,7 @@
   export let case_sensitive_captcha: boolean = true;
   export let use_random_font_colors: boolean = false;
   export let use_random_line_colors: boolean = false;
-  export let autocheck_user_input: boolean = true;
+  export let autocheck_user_input: boolean = false;
   export let auto_disapear: boolean = true;
   export let captcha: string = "";
   let ok: boolean = true;
