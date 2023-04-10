@@ -26,30 +26,30 @@ npm install captcha-sveltekit
 ```
 
 ## Component Properties
-| option                 |       type        | description                                                                                               |      default       |
-| :--------------------- | :---------------: | :-------------------------------------------------------------------------------------------------------- | :----------------: |
-| inner                  |  HTMLDivElement   | binded to the general container                                                                           |     undefined      |
-| captcha_image          | HTMLImageElement  | binded to the image element of the captcha                                                                |     undefined      |
-| input_text             | HTMLInputElement  | binded to the input element where user where user writes the captcha result                               |     undefined      |
-| button                 | HTMLButtonElement | binded to the button that triggers the captcha verification                                               |     undefined      |
-| captcha                |      string       | the string representing the captcha                                                                       |         ""         |
-| user_input             |      string       | binded to the value of the input_text                                                                     |         ""         |
-| char_amount            |      number       | amount of characters to show in the captcha                                                               |         5          |
-| canvas_width           |      number       | width of the canvas/image                                                                                 |        345         |
-| canvas_height          |      number       | height of the canvas/image                                                                                |         96         |
-| background_color       |      string       | background color of the canvas                                                                            |       "#FFF"       |
-| font                   |      string       | font used in the characters of the captcha                                                                | "bold 30px Ubuntu" |
-| font_color             |      string       | color of the font used in the characters of the captcha                                                   |       "#777"       |
-| lines_color            |      string       | color of the lines that strike through the captcha image                                                  |       "#777"       |
-| lines_amount           |      number       | amount of lines in the captcha image                                                                      |         20         |
-| captcha_alt            |      string       | captcha image alt                                                                                         |     "CAPTCHA"      |
-| input_placeholder      |      string       | placeholder of the input text                                                                             |     "CAPTCHA"      |
-| button_text            |      string       | inner text of the button                                                                                  |      "Check"       |
-| case_sensitive_captcha |      boolean      | wether or not the captcha is case sensitive to the user input                                             |        true        |
-| use_random_font_colors |      boolean      | wether or not use random colors for each captcha character, if true, overwrites the **font_color** option |       false        |
-| use_random_line_colors |      boolean      | wether or not use random colors for each line, if true, overwrites the **lines_color** option             |       false        |
-| autocheck_user_input   |      boolean      | wether or not to check automatically if user input is same as the captcha, if true hides the check button |       false        |
-| auto_disapear          |      boolean      | wether or not auto hide the captcha once is completed                                                     |        true        |
+| option                 |       type        | description                                                                                               |               default                |
+| :--------------------- | :---------------: | :-------------------------------------------------------------------------------------------------------- | :----------------------------------: |
+| inner                  |  HTMLDivElement   | binded to the general container                                                                           | undefined until component is mounted |
+| captcha_image          | HTMLImageElement  | binded to the image element of the captcha                                                                | undefined until component is mounted |
+| input_text             | HTMLInputElement  | binded to the input element where user where user writes the captcha result                               | undefined until component is mounted |
+| button                 | HTMLButtonElement | binded to the button that triggers the captcha verification                                               | undefined until component is mounted |
+| captcha                |      string       | the string representing the captcha                                                                       |                  ""                  |
+| user_input             |      string       | binded to the value of the input_text                                                                     |                  ""                  |
+| char_amount            |      number       | amount of characters to show in the captcha                                                               |                  5                   |
+| canvas_width           |      number       | width of the canvas/image                                                                                 |                 345                  |
+| canvas_height          |      number       | height of the canvas/image                                                                                |                  96                  |
+| background_color       |      string       | background color of the canvas                                                                            |                "#FFF"                |
+| font                   |      string       | font used in the characters of the captcha                                                                |          "bold 30px Ubuntu"          |
+| font_color             |      string       | color of the font used in the characters of the captcha                                                   |                "#777"                |
+| lines_color            |      string       | color of the lines that strike through the captcha image                                                  |                "#777"                |
+| lines_amount           |      number       | amount of lines in the captcha image                                                                      |                  20                  |
+| captcha_alt            |      string       | captcha image alt                                                                                         |              "CAPTCHA"               |
+| input_placeholder      |      string       | placeholder of the input text                                                                             |              "CAPTCHA"               |
+| button_text            |      string       | inner text of the button                                                                                  |               "Check"                |
+| case_sensitive_captcha |      boolean      | wether or not the captcha is case sensitive to the user input                                             |                 true                 |
+| use_random_font_colors |      boolean      | wether or not use random colors for each captcha character, if true, overwrites the **font_color** option |                false                 |
+| use_random_line_colors |      boolean      | wether or not use random colors for each line, if true, overwrites the **lines_color** option             |                false                 |
+| autocheck_user_input   |      boolean      | wether or not to check automatically if user input is same as the captcha, if true hides the check button |                false                 |
+| auto_disapear          |      boolean      | wether or not auto hide the captcha once is completed                                                     |                 true                 |
 
 ## Events
 - captcha-validation
