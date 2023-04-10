@@ -58,18 +58,18 @@ npm install captcha-sveltekit
 
 # Screenshots
 `default values`
-![screenshot 1](static/screenshots/image_2023-04-10_18-10-24.png)
+![screenshot 1](static/screenshots/image_2023-04-10_18-10-24.png)</br>
 `autocheck_user_input = true`
-![screenshot 2](static/screenshots/image_2023-04-10_18-10-24(2).png)
+![screenshot 2](static/screenshots/image_2023-04-10_18-10-24(2).png)</br>
 `use_random_font_colors=true`
-![screenshot 3](static/screenshots/image_2023-04-10_18-12-03.png)
+![screenshot 3](static/screenshots/image_2023-04-10_18-12-03.png)</br>
 `use_random_font_colors=true`
 `use_random_line_colors=true`
-![screenshot 3](static/screenshots/image_2023-04-10_18-12-03(2).png)
+![screenshot 3](static/screenshots/image_2023-04-10_18-12-03(2).png)</br>
 `char_amount=10`
 `line_amount=5`
 `font='Italic 30px Arial'`
-![screenshot 3](static/screenshots/image_2023-04-10_18-12-03(3).png)
+![screenshot 3](static/screenshots/image_2023-04-10_18-12-03(3).png)</br>
 
 # Licence
 MIT licensed
