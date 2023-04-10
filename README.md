@@ -57,30 +57,19 @@ npm install captcha-sveltekit
   - if `autocheck_user_input` is `true`, is dispatched when `user_input` has same lenght as `captcha` and `user_input` is correct, the `detail` will be always `true` in this case 
 
 # Screenshots
-`default values`</br>
+
+<!-- `default values`</br> -->
 ![screenshot 1](static/screenshots/image_2023-04-10_18-10-24.png)</br>
-
----
-
-`autocheck_user_input=true`</br>
+<!-- `autocheck_user_input=true`</br> -->
 ![screenshot 2](static/screenshots/image_2023-04-10_18-10-24(2).png)</br>
-
----
-
-`use_random_font_colors=true`</br>
+<!-- `use_random_font_colors=true`</br> -->
 ![screenshot 3](static/screenshots/image_2023-04-10_18-12-03.png)</br>
-
----
-
-`use_random_font_colors=true`
-`use_random_line_colors=true`</br>
+<!-- `use_random_font_colors=true`
+`use_random_line_colors=true`</br> -->
 ![screenshot 3](static/screenshots/image_2023-04-10_18-12-03(2).png)</br>
-
----
-
-`char_amount=10`
+<!-- `char_amount=10`
 `line_amount=5`
-`font='Italic 30px Arial'`</br>
+`font='Italic 30px Arial'`</br> -->
 ![screenshot 3](static/screenshots/image_2023-04-10_18-12-03(3).png)
 
 # Licence
