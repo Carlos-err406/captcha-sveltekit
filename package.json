@@ -56,5 +56,6 @@
     "type": "github"
   },
   "homepage": "https://github.com/Carlos-err406/captcha-sveltekit#README",
-  "readme": "./README.md"
+  "readme": "./README.md",
+  "markdown": "github"
 }
